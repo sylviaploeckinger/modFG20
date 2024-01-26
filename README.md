@@ -1,9 +1,9 @@
 # modFG20
 UV background used in Ploeckinger &amp; Schaye; UVB is based on Faucher-Giguere (2020) but with additional attenuation until H and He reionization is complete
 
-The ascii file is formatted so that it can be used directly with [Cloudy v17.01](https://www.nublado.org/) by replacing the hm12_galaxy.ascii file. 
+The ascii file modFG20_cloudy.txt is formatted so that it can be used directly with [Cloudy v17.01](https://www.nublado.org/) by replacing the hm12_galaxy.ascii file. 
 
-Content of the ascii file:
+Content of modFG20_cloudy.txt:
 * Line  1: version check for Cloudy, this needs to match the number that Cloudy expects; this might be different for different Cloudy versions and it should match that of the first line in the replaced hm12_galaxy.ascii 
 * Line  5: number of redshifts
 * Line  6: number of wavelengths
